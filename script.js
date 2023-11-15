@@ -4,6 +4,7 @@ con.style.display = "flex";
 con.style.flexWrap = "wrap";
 con.style.width = "800px";
 con.style.height = "800px";
+con.style.margin = "auto";
 
 for (var i = 0; i<64; i++){
     var tile = con.appendChild(document.createElement("div"));
