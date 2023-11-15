@@ -7,6 +7,9 @@ con.style.height = "800px";
 con.style.margin = "auto";
 
 
+var audio = new Audio("audio/music.mp3");
+audio.play();
+
 for (var i = 0; i<64; i++){
     var tile = con.appendChild(document.createElement("div"));
     tile.style.height="12.5%";
@@ -31,3 +34,4 @@ setInterval( function() {
         tile.style.backgroundColor = randomColor(tile);
     }
 }, 2000);
+
