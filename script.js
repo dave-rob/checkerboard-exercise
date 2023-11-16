@@ -26,10 +26,8 @@ for (var i = 1; i< 7; i++){
         tiles[count].appendChild(img);
         img.style.width = "150px";
         img.style.height = "150px";
-            //tiles[count].style.backgroundImage = `url("images/bear${j}.png")`;
-            //tiles[count].style.backgroundRepeat = "no-repeat";
         img.style.visibility = "hidden";
-            count++;
+        count++;
     }
 }
 count = 0;
@@ -37,7 +35,6 @@ count = 0;
 //while (count < 36){
 setInterval( function() {
     var bear = document.querySelectorAll("img");
-     //bear[count].style.visibility="visible";
     if (count === 0){
         bear[count].style.visibility= "visible";
         bear[35].style.visibility= "hidden";
@@ -51,4 +48,3 @@ setInterval( function() {
         count = 0
     }
  }, 500);
-
